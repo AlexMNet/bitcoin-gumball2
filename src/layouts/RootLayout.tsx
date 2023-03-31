@@ -15,13 +15,13 @@ const RootLayout = () => {
         <Navbar />
         {/* Body */}
         <main className="flex flex-col grow">
-          <div className="mt-20">
+          <div className="mt-4 sm:mt-20">
             <div className="container mx-auto">
-              <div className="grid md:grid-cols-2 text-white gap-8">
+              <div className="grid lg:grid-cols-2 text-white gap-8">
                 {/* Left Side */}
                 <div className="p-4">
                   <div className="mb-4">
-                    <h3 className="font-monaBold text-xl mb-3">
+                    <h3 className="font-monaBold text-base sm:text-xl mb-3">
                       <span className="text-amber-600">Bitcoin</span>
                       GumballMachine///$SOL-{'>'}$BTC
                     </h3>
@@ -40,7 +40,7 @@ const RootLayout = () => {
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className=" border-pink-50 px-4 flex justify-center md:justify-end font-mona">
+                <div className=" border-pink-50 px-4 flex justify-center lg:justify-end font-mona">
                   <div className="flex flex-col justify-center items-center">
                     {/* Card */}
                     <div className="w-[340px] rounded-3xl border-2 border-neutral-500 bg-[#1F1E1E] p-6">
