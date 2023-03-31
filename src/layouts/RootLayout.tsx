@@ -69,7 +69,7 @@ const RootLayout = () => {
                     </div>
                     <img
                       className="w-44 h-44"
-                      src="/src/assets/gumball.svg"
+                      src="/assets/gumball.svg"
                       alt="gumball logo"
                     />
                   </div>
