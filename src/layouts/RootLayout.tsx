@@ -7,9 +7,9 @@ import GumballIcon from '../assets/gumball.svg';
 const RootLayout = () => {
   return (
     <div className="relative flex flex-col min-h-screen bg-black bg-grid-pattern overflow-y-hidden">
-      <div className="absolute w-72 h-72 bg-[#ff9900] rounded-full filter blur-[100px] top-[18%] opacity-75 -left-44 "></div>
-      <div className="absolute w-24 h-24 bg-[#ff9900] rounded-full filter blur-[30px] top-[18%] right-[30%] "></div>
-      <div className="absolute w-44 h-44 bg-[#ff9900] rounded-full filter blur-[100px] -bottom-24 opacity-75 right-1/2 "></div>
+      <div className="absolute w-72 h-72 bg-[#ff9900] rounded-full filter blur-3xl top-[18%] opacity-75 -left-44 "></div>
+      <div className="absolute w-24 h-24 bg-[#ff9900] rounded-full filter blur-2xl top-[18%] right-[30%] "></div>
+      <div className="absolute w-44 h-44 bg-[#ff9900] rounded-full filter blur-3xl -bottom-24 opacity-75 right-1/2 "></div>
       <div className="flex flex-col min-h-screen z-0">
         {/* NavBar */}
         <Navbar />

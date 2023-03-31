@@ -4,13 +4,13 @@
 
 @font-face {
   font-family: 'Mona';
-  src: url('../public/fonts/Mona-Sans-Regular.woff');
+  src: url('/fonts/Mona-Sans-Regular.woff');
 }
 @font-face {
   font-family: 'MonaLight';
-  src: url('../public/fonts/Mona-Sans-Light.woff');
+  src: url('/fonts/Mona-Sans-Light.woff');
 }
 @font-face {
   font-family: 'MonaBold';
-  src: url('../public/fonts/Mona-Sans-BoldWide.woff');
+  src: url('/fonts/Mona-Sans-BoldWide.woff');
 }
