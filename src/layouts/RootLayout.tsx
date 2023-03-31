@@ -2,6 +2,7 @@ import { Outlet } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { EllipsisHorizontalCircleIcon } from '@heroicons/react/24/solid';
+import GumballIcon from '../assets/gumball.svg';
 
 const RootLayout = () => {
   return (
@@ -69,7 +70,7 @@ const RootLayout = () => {
                     </div>
                     <img
                       className="w-44 h-44"
-                      src="/assets/gumball.svg"
+                      src={GumballIcon}
                       alt="gumball logo"
                     />
                   </div>

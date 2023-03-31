@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import BitCoinIcon from '../assets/bitcoin_icon.svg';
 
 const SignMessage = () => {
   return (
@@ -14,7 +15,7 @@ const SignMessage = () => {
           className="w-full bg-white py-2 pl-2 pr-32 outline-none text-black rounded-lg"
         />
         <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3 text-black">
-          <img src="/src/assets/bitcoin_icon.svg" alt="" />
+          <img src={BitCoinIcon} alt="Bitcoin Logo" />
         </div>
       </div>
       <div className="mb-6">
