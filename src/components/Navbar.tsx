@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="font-mona">
-      <div className="max-w-screen-2xl mx-auto px-4">
+    <nav>
+      <div className="max-w-screen-2xl mx-auto px-4 font-mona">
         <div className="flex py-8 justify-between items-center">
           <div>
             <NavLink to="/">

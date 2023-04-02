@@ -1,12 +1,6 @@
-import {
-  Cog6ToothIcon,
-  EllipsisHorizontalCircleIcon,
-} from '@heroicons/react/24/solid';
-import Navbar from './components/Navbar';
 import Accordion from './components/Accordion';
 import SignMessage from './components/SignMessage';
 import MintMessage from './components/MintMessage';
-import { useState } from 'react';
 import RootLayout from './layouts/RootLayout';
 import {
   createBrowserRouter,

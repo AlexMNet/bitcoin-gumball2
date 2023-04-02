@@ -11,31 +11,24 @@ const RootLayout = () => {
     <div className="relative flex flex-col min-h-screen bg-black bg-grid-pattern overflow-y-hidden">
       <BackgroundBlobs />
       <div className="flex flex-col min-h-screen z-0">
-        {/* NavBar */}
         <Navbar />
-        {/* Body */}
         <main className="flex flex-col grow">
           {/* Center Content */}
-          <div className="mt-4 sm:mt-20">
+          <div className="p-4 md:p-12 text-center lg:text-left">
             <div className="container mx-auto">
-              <div className="grid lg:grid-cols-2 text-white gap-8">
-                {/* Left Side */}
-                <div className="p-4">
-                  <div className="text-center lg:text-left">
-                    <Header />
-                    <div className="mt-4">
-                      <Outlet />
-                    </div>
+              <div className="grid lg:grid-cols-2 gap-12 text-white">
+                <div className="md:mt-12">
+                  <Header />
+                  <div className="mt-4">
+                    {/* Outlet is where the Accordion, SignMessage or MintMessage is rendered by the router in App.tsx */}
+                    <Outlet />
                   </div>
                 </div>
-                {/* Right Side */}
-                <div className="px-4 flex justify-center lg:justify-end font-mona">
-                  <div className="flex flex-col justify-center items-center">
-                    {/* Card */}
+                <div className="mb-12 lg:mb-0 flex justify-center lg:justify-end">
+                  <div>
                     <Card />
-                    {/* BitCoin Gumball Icon */}
                     <img
-                      className="w-44 h-44"
+                      className="w-44 h-44 mx-auto"
                       src={GumballIcon}
                       alt="gumball logo"
                     />
@@ -45,7 +38,6 @@ const RootLayout = () => {
             </div>
           </div>
         </main>
-        {/* Footer */}
         <Footer />
       </div>
     </div>
