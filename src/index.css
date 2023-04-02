@@ -14,3 +14,11 @@
   font-family: 'MonaBold';
   src: url('/fonts/Mona-Sans-BoldWide.woff');
 }
+
+html {
+  background-color: black;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

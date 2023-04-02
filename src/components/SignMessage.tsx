@@ -19,10 +19,7 @@ const SignMessage = () => {
         </div>
       </div>
       <div className="mb-6">
-        <select
-          className="w-50 py-2 px-1 rounded-lg outline-none text-black bg-gray-300"
-          // onChange={handleChange}
-        >
+        <select className="w-50 py-2 px-1 rounded-lg outline-none text-black bg-gray-300">
           <option value="">Select a fee for your delivery</option>
           <option value="">Option 1</option>
           <option value="">Option 2</option>

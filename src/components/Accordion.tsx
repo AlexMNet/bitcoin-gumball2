@@ -3,7 +3,7 @@ import { PlusIcon, MinusIcon } from '@heroicons/react/24/solid';
 
 const Accordion = () => {
   return (
-    <div className="font-mona w-full max-w-xl border border-neutral-400  divide-y divide-neutral-400 text-neutral-400">
+    <div className="hyphens-auto font-mona w-full max-w-xl border border-neutral-400  divide-y divide-neutral-400 text-neutral-400">
       <Disclosure>
         {({ open }) => (
           <>
@@ -45,8 +45,8 @@ const Accordion = () => {
                 <PlusIcon className="w-6 h-6" />
               )}
             </Disclosure.Button>
-            <Disclosure.Panel className="px-6 pt-4 pb-2 text-sm  break-words space-y-3">
-              <p>
+            <Disclosure.Panel className="px-6 pt-4 pb-2 text-sm space-y-3">
+              <p className="">
                 If you hold an OG Meerkat{' '}
                 <a
                   className="underline"
