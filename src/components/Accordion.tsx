@@ -3,7 +3,7 @@ import { PlusIcon, MinusIcon } from '@heroicons/react/24/solid';
 
 const Accordion = () => {
   return (
-    <div className="hyphens-auto font-mona w-full max-w-xl border border-neutral-400  divide-y divide-neutral-400 text-neutral-400">
+    <div className="font-mona w-full max-w-xl border border-neutral-400  divide-y divide-neutral-400 text-neutral-400">
       <Disclosure>
         {({ open }) => (
           <>
@@ -52,9 +52,8 @@ const Accordion = () => {
                   className="underline"
                   href="https://magiceden.io/marketplace/meerkat_millionaires_country_club"
                 >
-                  (https://magiceden.io/marketplace/meerkat_millionaires_country_club)
-                </a>
-                {'\n'}
+                  Meerkat Millionaires Country Club
+                </a>{' '}
                 mint price is 0.50 Sol + chosen tx speed fee
               </p>
               <p>
