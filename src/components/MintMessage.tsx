@@ -1,5 +1,3 @@
-import React from 'react';
-
 const MintMessage = () => {
   return (
     <div className="mt-8 space-y-4 text-lg font-mona">

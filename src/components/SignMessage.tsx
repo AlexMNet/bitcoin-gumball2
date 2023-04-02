@@ -1,4 +1,3 @@
-import React from 'react';
 import { NavLink } from 'react-router-dom';
 import BitCoinIcon from '../assets/bitcoin_icon.svg';
 
