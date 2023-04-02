@@ -17,7 +17,7 @@ const Navbar = () => {
             <NavLink to="/sign-message">
               <button
                 type="button"
-                className="uppercase rounded-full bg-transparent font-normal px-2.5 py-1 sm:px-6 sm:py-2 text-xs sm:text-sm hover:text-black text-white shadow-sm ring-1 ring-inset ring-white hover:bg-gray-50"
+                className="uppercase rounded-full bg-transparent font-normal px-3 py-1 sm:px-6 sm:py-2 text-xs sm:text-sm hover:text-black text-white shadow-sm ring-1 ring-inset ring-white hover:bg-gray-50"
               >
                 Connect Wallet
               </button>

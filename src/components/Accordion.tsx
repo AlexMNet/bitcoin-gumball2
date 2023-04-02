@@ -3,11 +3,12 @@ import { PlusIcon, MinusIcon } from '@heroicons/react/24/solid';
 
 const Accordion = () => {
   return (
-    <div className="font-mona w-full max-w-xl border border-neutral-400  divide-y divide-neutral-400 text-neutral-400">
-      <Disclosure>
+    <div className="font-mona text-left w-full border border-neutral-400 divide-y divide-neutral-400 text-neutral-400">
+      <Disclosure as="div">
         {({ open }) => (
           <>
-            <Disclosure.Button className="flex w-full items-center justify-between px-4 py-2 text-left text-sm font-medium">
+            {/* "flex w-full justify-between items-center px-4 py-2 text-left text-sm font-medium" */}
+            <Disclosure.Button className="flex w-full items-center justify-between px-4 py-2 text-left text-sm font-medium ">
               <span>How to Mint:</span>
               {open ? (
                 <MinusIcon className="w-6 h-6" />
@@ -34,10 +35,10 @@ const Accordion = () => {
           </>
         )}
       </Disclosure>
-      <Disclosure as="div" className="mt-2">
+      <Disclosure as="div">
         {({ open }) => (
           <>
-            <Disclosure.Button className="flex w-full items-center justify-between px-4 py-2 text-left text-sm font-medium">
+            <Disclosure.Button className="flex w-full items-center justify-between px-4 py-2 text-left text-sm font-medium ">
               <span>What is Mint Price:</span>
               {open ? (
                 <MinusIcon className="w-6 h-6" />
@@ -64,10 +65,10 @@ const Accordion = () => {
           </>
         )}
       </Disclosure>
-      <Disclosure as="div" className="mt-2">
+      <Disclosure as="div">
         {({ open }) => (
           <>
-            <Disclosure.Button className="flex w-full items-center justify-between px-4 py-2 text-left text-sm font-medium">
+            <Disclosure.Button className="flex w-full items-center justify-between px-4 py-2 text-left text-sm font-medium ">
               <span>Recommended Wallets:</span>
               {open ? (
                 <MinusIcon className="w-6 h-6" />
@@ -117,10 +118,10 @@ const Accordion = () => {
           </>
         )}
       </Disclosure>
-      <Disclosure as="div" className="mt-2">
+      <Disclosure as="div">
         {({ open }) => (
           <>
-            <Disclosure.Button className="flex w-full justify-between items-center px-4 py-2 text-left text-sm font-medium">
+            <Disclosure.Button className="flex w-full justify-between items-center px-4 py-2 text-left text-sm font-medium ">
               <span>All about Ordinals:</span>
               {open ? (
                 <MinusIcon className="w-6 h-6" />
@@ -157,10 +158,10 @@ const Accordion = () => {
           </>
         )}
       </Disclosure>
-      <Disclosure as="div" className="mt-2">
+      <Disclosure as="div">
         {({ open }) => (
           <>
-            <Disclosure.Button className="flex w-full justify-between items-center px-4 py-2 text-left text-sm font-medium">
+            <Disclosure.Button className="flex w-full justify-between items-center px-4 py-2 text-left text-sm font-medium ">
               <span>What is the Bitcoin Gumball Machine?</span>
               {open ? (
                 <MinusIcon className="w-6 h-6" />
@@ -168,7 +169,7 @@ const Accordion = () => {
                 <PlusIcon className="w-6 h-6" />
               )}
             </Disclosure.Button>
-            <Disclosure.Panel className="px-6 pt-4 pb-2 text-sm ">
+            <Disclosure.Panel className="px-6 pt-4 pb-2 text-sm">
               <a
                 className="underline"
                 href="https://magiceden.io/marketplace/meerkat_millionaires_country_club"
